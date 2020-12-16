@@ -1,0 +1,162 @@
+/* CSS Adjustments for Tablets */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+nav {
+	background-color: #6b9ff2;
+	padding: 0;
+}
+h1{
+	font-family: 'Bebas Neue', cursive;
+	text-align: center;
+}
+h2{
+	font-family: 'Bebas Neue', cursive;
+	text-align: center;
+}
+nav ul {
+	text-align:center;
+	padding: 8px;
+}
+#wrapper {
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+	background-color: #aecfe8;
+}	
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18%;
+}
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.center3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.beach{
+	background-image:url(images/beach.jpg);
+	background-position:center;
+	background-width:1200px;
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.intro {
+	padding-top: 180px;
+	padding-right: 80px;
+	font-size: 25px	;
+}
+.big {
+	font-size:20px;
+}
+
+p {
+	text-align: center;
+	max-width: 7in;
+	margin: 0 auto; 
+	float: none !important; 
+}
+}
+
+
+body{
+	margin: 10px 0;
+}
+nav li{
+	display: inline;
+	padding: 8px 10px;
+	border-radius: 50px;
+	background-color: #dae5f7;
+
+}
+ul{
+	text-align: center;
+	list-style-position: inside;
+}
+nav a:link {
+	color: #000033;
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #ffffff;
+}
+nav a:active {
+	color: #000000;
+}
+
+@media only screen and (max-width: 1024px) {
+	body {
+		margin: 0;
+		padding: 0;
+		background-image: none;
+	}
+	h1 {
+		margin: 0;
+	}
+	nav {
+		float: none;
+		width: auto;
+		padding: .5em;
+	}
+	nav li {
+		display: inline-block;
+	}
+	nav a {
+		padding: 1em;
+	}
+	main {
+		margin-left: 0;
+		padding: 1em;
+		font-size: 90%;
+	}
+	footer {
+		margin: 0;
+	}
+
+}
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+	nav li {
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+	nav a {
+		display: block;
+		border-bottom: 1px #330000 solid;
+		padding: 0.2em font-size:1.3em;
+	}
+	nav {
+		padding: 0;
+	}
+	nav ul {
+		margin: 0;
+		padding: 0;
+	}
+	h1 {
+		font-size: 1.5em;
+		padding-left: 0.3em;
+		height: 100%;
+	}
+	main {
+		padding-top: 0.1em;
+		padding-right: 0.6em;
+		padding-bottom: 0.1em;
+		padding-left: 0.4em;
+	}
+	footer {
+		padding: 0;
+	}
+
+}
